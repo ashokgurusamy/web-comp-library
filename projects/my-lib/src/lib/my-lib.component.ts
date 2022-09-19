@@ -1,11 +1,9 @@
 import { Component, OnInit } from '@angular/core';
 
 @Component({
-  selector: 'lib-my-lib',
+  selector: 'web-component-title',
   template: `
-    <p>
-      my-lib works!
-    </p>
+    <title></title>
   `,
   styles: [
   ]

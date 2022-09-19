@@ -1,4 +1,4 @@
-import { NgModule } from '@angular/core';
+import { CUSTOM_ELEMENTS_SCHEMA, NgModule } from '@angular/core';
 import { MyLibComponent } from './my-lib.component';
 
 
@@ -9,6 +9,7 @@ import { MyLibComponent } from './my-lib.component';
   ],
   imports: [
   ],
+  schemas: [CUSTOM_ELEMENTS_SCHEMA],
   exports: [
     MyLibComponent
   ]
